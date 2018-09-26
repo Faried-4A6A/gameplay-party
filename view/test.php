@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="footer text-center">
+<!-- <footer class="footer text-center">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -15,4 +15,4 @@
     </div>
 </footer>
 </body>
-</html>
+</html> -->
