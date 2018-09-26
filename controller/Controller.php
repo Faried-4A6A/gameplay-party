@@ -16,6 +16,10 @@ class Controller {
         require "view/home.php";
     }
 
+    public function overons() {
+        require 'view/over_ons.php';
+    }
+
 }
 
 ?>

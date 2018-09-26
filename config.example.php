@@ -1,2 +1,2 @@
 <?php
-define("APP_DIR", "/Applications/XAMPP/xamppfiles/htdocs/gameplay-party");
+define("APP_DIR", "C:/xampp/htdocs/GitHub/gameplay-party");
