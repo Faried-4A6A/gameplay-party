@@ -9,7 +9,7 @@ class Controller {
 
     
     public function home() {
-        include "view/home.php";
+        require "view/home.php";
     }
 
 }

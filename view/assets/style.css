@@ -5,3 +5,13 @@
     background-size: cover;
 }
 
+.footer-blok{
+    margin-top: 1rem;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 2.5em;
+}
+
+.slider{
+    margin-bottom: 5em;
+}
