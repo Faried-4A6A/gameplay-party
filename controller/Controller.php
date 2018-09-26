@@ -7,9 +7,13 @@ class Controller {
     }
     public function __destruct() {}
 
-    
+
     public function home() {
-        include "view/home.php";
+        require "view/home.php";
+    }
+
+    public function overons() {
+        require 'view/over_ons.php';
     }
 
 }
