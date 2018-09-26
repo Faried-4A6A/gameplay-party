@@ -7,4 +7,8 @@ require 'model/Router.php';
 
   $Router = new Router();
 
+<<<<<<< HEAD
 ?>
+=======
+require_once "view/footer.php";
+>>>>>>> origin/master
