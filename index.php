@@ -1,8 +1,9 @@
-<?php require_once 'controller/contactsController.php' ?>
-
 <?php
-$controller = new ContactsController();
-$controller->handleRequest();
-?>
 
+define("APP_DIR", "C:/xampp/htdocs/prog_oefen/");
 
+require 'model/Router.php';
+
+  $Router = new Router();
+
+  
