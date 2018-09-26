@@ -13,13 +13,13 @@
     <nav class="navbar-dark bg-dark">
         <ul class="navbar justify-content-end nav-style">
           <li class="nav-item">
-            <a class="nav-link active" href="home.php">Home</a>
+            <a class="nav-link active" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="over_ons.php">Over ons</a>
+            <a class="nav-link" href="#">Over ons</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Disabled</a>
