@@ -8,8 +8,19 @@ class Controller {
     public function __destruct() {}
 
 
+<<<<<<< HEAD
+=======
+    public function overzicht() {
+        require "view/overzicht.php";
+    }
+
+>>>>>>> origin/master
     public function home() {
-        include "view/home.php";
+        require "view/home.php";
+    }
+
+    public function overons() {
+        require 'view/over_ons.php';
     }
 
     public function overons() {

@@ -22,9 +22,13 @@
 
 
             if (isset($packets[1]) && $packets[1] !='' && isset($packets[2]) && $packets[2] !=''){
+<<<<<<< HEAD
                 $this->sendToDestination($packets[1], $packets[2], array_slice($packets, 4));
             }else{
                 echo "";
+=======
+                $this->sendToDestination($packets[1], $packets[2], array_slice($packets, 3));
+>>>>>>> origin/master
             }
         }
 
