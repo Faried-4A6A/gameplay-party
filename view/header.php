@@ -1,4 +1,4 @@
-<div>
+<header>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="view/assets/style.css"/>
     <nav class="navbar-dark bg-dark">
@@ -21,4 +21,4 @@
           </form>
         </ul>
     </nav>
-</div>
+</header>
