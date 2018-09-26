@@ -1,7 +1,7 @@
 <div>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <nav class="navbar-dark bg-dark">
-        <ul class="navbar justify-content-end">
+        <ul class="navbar justify-content-end nav-style">
           <li class="nav-item">
             <a class="nav-link active" href="#">Home</a>
           </li>
@@ -20,7 +20,4 @@
           </form>
         </ul>
     </nav>
-    <h1>
-    Read products
-    </h1>
 </div>
