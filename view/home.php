@@ -1,4 +1,4 @@
-<?php require_once "view/header.php"; ?>
+<?php require_once "partials/header.php"; ?>
 <div class="container">
   <div class="row">
 
@@ -33,4 +33,4 @@
 
   </div>
 </div>
-<?php require_once "view/footer.php"; ?>
+<?php require_once "partials/footer.php"; ?>
