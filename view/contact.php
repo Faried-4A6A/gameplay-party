@@ -9,7 +9,6 @@
   </head>
   <body>
     <a href="#index"><img class="logo" src="#logo"></a>
-    <a href="view/winkelwagen.php"><img class="shoppingcart" src="../styles/winkelwagen.jpg" href="winkelwagen.php"></a>
     <form class="example" method="post" action="view/index.php?view=search">
       <input name="search" type="text" placeholder="Klik hier wat u wilt zoeken..." name="search">
       <button name"submit" type="submit"><i class="fa fa-search"></i></button>
@@ -38,32 +37,5 @@
       </form>
     </div>
     <div class="contactinfo">
-    <table>
-      <tr>
-        <th>Contactgegevens</th>
-        <th>Multiversum</th>
-      </tr>
-      <tr>
-        <td>Adres: </td>
-        <td>Jan Pieterszoon Coenstraat 1861 </td>
-      </tr>
-      <tr>
-        <td>Postcode: </td>
-        <td>69217 EB</td>
-      </tr>
-      <tr>
-        <td>Land: </td>
-        <td>Nederland</td>
-      </tr>
-      <tr>
-        <td>Tel-nr: </td>
-        <td>(656)-976-4980</td>
-      </tr>
-      <tr>
-        <td>E-mail: </td>
-        <td>jack.jones@multiversum.com</td>
-      </tr>
-    </table>
-  </div>
   </body>
 </html>
