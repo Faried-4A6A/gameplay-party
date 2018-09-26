@@ -16,6 +16,10 @@ class Controller {
         require 'view/over_ons.php';
     }
 
+    public function contact() {
+        require 'view/contact.php';
+    }
+
 }
 
 ?>

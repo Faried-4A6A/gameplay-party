@@ -9,7 +9,7 @@
   </head>
   <body>
     <a href="#index"><img class="logo" src="#logo"></a>
-    <form class="example" method="post" action="view/index.php?view=search">
+    <form class="example" method="post" action="">
       <input name="search" type="text" placeholder="Klik hier wat u wilt zoeken..." name="search">
       <button name"submit" type="submit"><i class="fa fa-search"></i></button>
     </form>
