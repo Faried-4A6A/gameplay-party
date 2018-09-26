@@ -1,7 +1,7 @@
 <?php
- require_once "view/header.php";
+require_once "view/header.php";
 
-define("APP_DIR", "C:/xampp/htdocs/GitHub/gameplay-party/");
+require "config.php";
 
 require 'model/Router.php';
 
