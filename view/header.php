@@ -20,7 +20,4 @@
           </form>
         </ul>
     </nav>
-    <h1>
-    Read products
-    </h1>
 </div>
