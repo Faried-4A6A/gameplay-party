@@ -1,0 +1,11 @@
+.nav-style {
+    list-style-type: none;
+}
+
+.nav-style a{
+    color: #fff;
+}
+
+.nav-style a:hover{
+    color: #bdc3c7;
+}
