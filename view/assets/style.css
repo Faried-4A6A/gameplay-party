@@ -1,0 +1,6 @@
+.business-header{
+    background: url(http://placehold.it/1920x400) center center no-repeat scroll;
+    height: 50vh;
+    min-height: 300px;
+    background-size: cover;
+}
