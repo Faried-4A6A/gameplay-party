@@ -33,3 +33,7 @@
 .portfolio-item {
     margin-bottom: 30px;
 }
+
+.form-control {
+    border-radius: 2em;
+}
