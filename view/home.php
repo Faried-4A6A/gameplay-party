@@ -1,11 +1,23 @@
-<?php require_once "view/partials/header.php"; ?>
+<?php require_once "view/partials/header.php"; 
+?>
+
+
+<!-- <div class="slider">
+  <img class="img-fluid" src="/view/assets/img/home.jpg">
+  </div> -->
+
+  <header class="business-header mb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- <h1 class="display-3 text-center text-white mt-4">Gameplay Party</h1> -->
+          </div>
+        </div>
+      </div>
+    </header>
 <div class="container">
-
-  <div class="slider">
-  <a href="https://placeholder.com"><img class="img-fluid" src="https://via.placeholder.com/1300x500?text=Slider"></a>
-  </div>
-
   <h2>Bioscopen</h2>
+  <hr>
 
   <div class="row">
     <div class="col-lg-4 col-sm-6 portfolio-item">

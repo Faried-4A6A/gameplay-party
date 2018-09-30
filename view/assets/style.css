@@ -14,6 +14,7 @@
 
 .slider{
     margin-bottom: 5em;
+    width: 100vw
 }
 
 .portfolio-item {
@@ -22,6 +23,7 @@
 
 .nav-item{
     list-style-type: none;
+    font-weight: bold;
 }
 
 .colorAslphalt{
@@ -41,3 +43,17 @@
     background-color: #C4E538 !important;
 }
 
+.business-header {
+    height: 60vh;
+    min-height: 300px;
+    background: url('/view/assets/img/home.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.active{
+    color: #FFFFFF !important;
+    text-decoration: underline;
+}

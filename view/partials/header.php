@@ -1,3 +1,6 @@
+<?php
+$page = $_SERVER['REQUEST_URI'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +13,7 @@
 <body>
 <header>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
+
     <nav class="navbar navbar-expand-lg backgroundColorAndriodGreen">
       <div class="container">
         <a class="navbar-brand colorMidnight "><img style="height:50px" src="/view/assets/img/gpp.svg" alt=""></a> 
@@ -20,16 +23,16 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav  ml-auto">
             <li class="nav-item">
-              <a class="nav-link colorMidnight " href="http://localhost/homeController/home">Home</a>
+              <a class="nav-link <?php if($page == '/homeController/home'){echo "active";} ?> colorMidnight " href="http://localhost/homeController/home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link colorMidnight" href="http://localhost/overzichtController/overzicht">Bioscopen</a>
+              <a class="nav-link <?php if($page == '/overzichtController/overzicht'){echo "active";} ?> colorMidnight" href="http://localhost/overzichtController/overzicht">Bioscopen</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link colorMidnight" href="http://localhost/overonsController/overons">Over ons</a>
+              <a class="nav-link <?php if($page == '/overonsController/overons'){echo "active";} ?> colorMidnight" href="http://localhost/overonsController/overons">Over ons</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link colorMidnight" href="http://localhost/contactscontroller/contact">Contact</a>
+              <a class="nav-link <?php if($page == '/contactscontroller/contact'){echo "active";} ?> colorMidnight" href="http://localhost/contactscontroller/contact">Contact</a>
             </li>
             <!-- <form class="form-inline my-2 my-lg-0">
              <input class="form-control mr-sm-2" type="search" placeholder="Search" disabled aria-label="Search">
