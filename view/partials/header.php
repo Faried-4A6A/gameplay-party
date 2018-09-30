@@ -11,16 +11,16 @@
         <img src="\view\assets\img\logo2.png">
         <ul class="navbar justify-content-end nav-style">
           <li class="nav-item">
-            <a class="nav-link active" href="home">Home</a>
+            <a class='nav-link text-dark <?php echo ($packets == 'home' ?  'text-primary font-weight-bold' : '') ?>' href="home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="overons">Over ons</a>
+            <a class="nav-link text-dark <?php echo ($packets == 'overzicht' ?  'text-primary font-weight-bold' : '') ?>" href="overzicht">Alle bioscopen</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact">Contact</a>
+            <a class="nav-link text-dark <?php echo ($packets == '' ?  'text-primary font-weight-bold' : '') ?>" href="overons">Over ons</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Disabled</a>
+            <a class="nav-link text-dark <?php echo ($packets == '' ?  'text-primary font-weight-bold' : '') ?>" href="contact">Contact</a>
           </li>
           <form class="form-inline my-2 my-lg-0">
              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">

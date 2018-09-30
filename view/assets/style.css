@@ -3,10 +3,6 @@
     list-style-type: none;
 }
 
-.nav-style a{
-    color: #151515;
-}
-
 .nav-style a:hover {
     color: #bdc3c7;
 }
