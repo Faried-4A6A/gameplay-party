@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<header>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="/view/assets/style.css">
+  <link rel="stylesheet" href="/view/assets/styles/style.css">
   <title>Gameplay party</title>
-</head>
-<body>
-<header>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <nav class="navbar-dark bg-dark">
+    <nav class="navbar navbar-light bg-light" style="background-color: #ecf0f1;">
+        <img src="\view\assets\img\logo2.png">
         <ul class="navbar justify-content-end nav-style">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link active" href="home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Over ons</a>
+            <a class="nav-link" href="overons">Over ons</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="contact">Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Disabled</a>
