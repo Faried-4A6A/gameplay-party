@@ -1,6 +1,6 @@
 <?php
 
-class Controller {
+class contactsController {
 
 
     public function __construct(){
@@ -8,10 +8,9 @@ class Controller {
     public function __destruct() {}
 
 
-    public function home() {
-        require "view/home.php";
+    public function contact() {
+        require "view/overzicht.php";
     }
-
 
 
 }
