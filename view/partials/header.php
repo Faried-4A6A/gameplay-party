@@ -20,13 +20,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav  ml-auto">
             <li class="nav-item">
-              <a class="nav-link colorMidnight " href="http://localhost/controller/home">Home</a>
+              <a class="nav-link colorMidnight " href="http://localhost/homeController/home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link colorMidnight" href="http://localhost/overzichtsController/overzicht">Bioscopen</a>
+              <a class="nav-link colorMidnight" href="http://localhost/overzichtController/overzicht">Bioscopen</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link colorMidnight" href="http://localhost/controller/overons">Over ons</a>
+              <a class="nav-link colorMidnight" href="http://localhost/overonsController/overons">Over ons</a>
             </li>
             <li class="nav-item">
               <a class="nav-link colorMidnight" href="http://localhost/contactscontroller/contact">Contact</a>

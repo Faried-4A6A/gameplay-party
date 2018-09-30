@@ -9,7 +9,7 @@ class contactsController {
 
 
     public function contact() {
-        require "view/overzicht.php";
+        require "view/contact.php";
     }
 
 
