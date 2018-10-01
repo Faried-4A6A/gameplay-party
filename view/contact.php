@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
   include 'partials/header.php';
  ?>
@@ -46,3 +47,27 @@
 <?php
     include 'partials/footer.php';
  ?>
+=======
+<?php require_once 'partials/header.php'; ?>
+
+<div class="container">
+    <form>
+      <div class="form-row mt-5 justify-content-center">
+          <label><h1>Contact</h1></label>
+      </div>
+      <hr>
+      <div class="form-row justify-content-center">
+          <label>Naam</label>
+          <input type="text" class="form-control">
+          <label>Email</label>
+          <input type="text" class="form-control">
+          <label>Reserverings ID (optioneel)</label>
+          <input type="text" class="form-control">
+          <label>Bericht</label>
+          <textarea type="text" class="form-control mb-5" rows="8" cols="50"></textarea>
+      </div>
+    </form>
+</div>
+
+<?php require_once 'partials/footer.php'; ?>
+>>>>>>> 8fecf13bdb84acd4ea4417fd03d1d8677bf3172b

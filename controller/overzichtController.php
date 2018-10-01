@@ -1,6 +1,6 @@
 <?php
 
-class Controller {
+class overzichtController {
 
 
     public function __construct(){
@@ -12,6 +12,7 @@ class Controller {
         require "view/overzicht.php";
     }
 
+<<<<<<< HEAD:controller/Controller.php
     public function home() {
         require "view/home.php";
     }
@@ -24,6 +25,8 @@ class Controller {
         require 'view/contact.php';
     }
 
+=======
+>>>>>>> 8fecf13bdb84acd4ea4417fd03d1d8677bf3172b:controller/overzichtController.php
 }
 
 ?>
