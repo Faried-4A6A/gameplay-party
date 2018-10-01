@@ -3,7 +3,7 @@
  <div class="container">
 
  <!-- Page Heading -->
- <h1 class="my-4">Overzicht 
+ <h1 class="my-4">Overzicht
    <small>van bioscopen</small>
  </h1>
 

@@ -1,5 +1,14 @@
-<?php require_once "view/partials/header.php"; 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<?php require_once "partials/header.php"; ?>
+=======
+<?php require_once "view/partials/header.php"; ?>
+>>>>>>> 425d776b94e0ec91a6cc1bc54329df532bf3905b
+<div class="container">
+=======
+<?php require_once "view/partials/header.php";
 ?>
+>>>>>>> 8fecf13bdb84acd4ea4417fd03d1d8677bf3172b
 
 
 <!-- <div class="slider">
@@ -57,4 +66,7 @@
   <!-- /.row -->
 
 </div>
+
+<?php require_once "partials/footer.php"; ?>
+
 <?php require_once "view/partials/footer.php"; ?>
