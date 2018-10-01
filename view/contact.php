@@ -70,4 +70,7 @@
 </div>
 
 <?php require_once 'partials/footer.php'; ?>
+<<<<<<< HEAD
 >>>>>>> 8fecf13bdb84acd4ea4417fd03d1d8677bf3172b
+=======
+>>>>>>> 84ad9909d677aca14bbbd44ac0d6ad0c5e31e01c
