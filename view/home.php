@@ -1,6 +1,6 @@
 <?php require_once "view/partials/header.php"; ?>
 <div class="container">
-
+    <br>
   <div class="slider">
   <a href="https://placeholder.com"><img class="img-fluid" src="https://via.placeholder.com/1300x500?text=Slider"></a>
   </div>

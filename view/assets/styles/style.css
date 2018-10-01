@@ -20,7 +20,7 @@ a{
 
 .footer-blok{
     margin-top: 1rem;
-    background-color: #212529;
+    background-color: #2c3e50;
     color: #ecf0f1;
     padding: 2.5em;
 }
@@ -36,4 +36,8 @@ a{
 
 .form-control {
     border-radius: 2em;
+}
+
+.line-hr {
+    background-color: #151515;
 }
