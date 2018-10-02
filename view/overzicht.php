@@ -1,9 +1,9 @@
-<?php require_once "view/partials/header.php"; ?>
+<?php require_once "partials/header.php"; ?>
  <!-- Page Content -->
  <div class="container">
 
  <!-- Page Heading -->
- <h1 class="my-4">Overzicht 
+ <h1 class="my-4">Overzicht
    <small>van bioscopen</small>
  </h1>
 
@@ -116,4 +116,4 @@
 
 </div>
 <!-- /.container -->
-<?php require_once "view/partials/footer.php"; ?>
+<?php require_once "partials/footer.php"; ?>

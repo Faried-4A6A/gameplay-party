@@ -1,5 +1,4 @@
-<?php require_once "view/partials/header.php"; 
-?>
+<?php require_once "partials/header.php";?>
 
 
 <!-- <div class="slider">
@@ -57,4 +56,6 @@
   <!-- /.row -->
 
 </div>
-<?php require_once "view/partials/footer.php"; ?>
+
+
+<?php require_once "partials/footer.php"; ?>

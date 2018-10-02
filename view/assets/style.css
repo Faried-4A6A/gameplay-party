@@ -27,7 +27,7 @@
 
 .nav-item{
     list-style-type: none;
-    font-weight: bold;
+    font-size: 1.1em;
 }
 
 .colorAslphalt{
@@ -35,16 +35,12 @@
 }
 
 .backgroundColorAndriodGreen{
-    background: #a3cb38;
+    background: #f5f5f5;
 }
 
 .colorMidnight{
-    color:#2c3e50 !important;
+    color:#34495e !important;
     border-color: #34495e !important;
-}
-
-.btn-outline-success:hover {
-    background-color: #C4E538 !important;
 }
 
 .business-header {
@@ -58,6 +54,16 @@
 }
 
 .active{
-    color: #FFFFFF !important;
+    color: #263645 !important;
     text-decoration: underline;
+}
+
+.navlogo{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.btn-outline-primary:hover{
+    color: #f5f5f5 !important;
+    background-color: #586A7B !important;
 }
