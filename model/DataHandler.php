@@ -25,5 +25,13 @@
         
             
             }
+        function ReadData($sql){
+
+            $stmt = $this->conn->prepare($sql);
+            $stmt->execute();
+        
+            // set the resulting array to associative
+        
+            }
     }
 ?>
