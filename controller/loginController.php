@@ -14,8 +14,8 @@ class loginController {
         require "view/login.php";
     }
 
-
-
 }
+
+
 
 ?>

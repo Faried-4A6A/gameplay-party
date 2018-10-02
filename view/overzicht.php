@@ -1,94 +1,33 @@
 <?php require_once "partials/header.php"; ?>
  <!-- Page Content -->
- <div class="container">
-
- <!-- Page Heading -->
- <h1 class="my-4">Overzicht
-   <small>van bioscopen</small>
- </h1>
-
+ <div class="container mt-5">
  <div class="row">
-   <div class="col-lg-4 col-sm-6 portfolio-item">
-     <div class="card h-100">
-       <a href="#"><img class="card-img-top" src="http://placehold.it/700x400?text=Thumbnail" alt=""></a>
-       <div class="card-body">
-         <h4 class="card-title">
-           <a href="#">Bioscoop One</a>
-         </h4>
-         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
-        <button type="button" class="btn btn-primary">Betalen</button>
-        <button type="button" class="btn btn-secondary">Meer</button>
-        </div>
-     </div>
-   </div>
-   <div class="col-lg-4 col-sm-6 portfolio-item">
-     <div class="card h-100">
-       <a href="#"><img class="card-img-top" src="http://placehold.it/700x400?text=Thumbnail" alt=""></a>
-       <div class="card-body">
-         <h4 class="card-title">
-           <a href="#">Bioscoop Two</a>
-         </h4>
-         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-        <button type="button" class="btn btn-primary">Betalen</button>
-        <button type="button" class="btn btn-secondary">Meer</button>
-        </div>
-     </div>
-   </div>
-   <div class="col-lg-4 col-sm-6 portfolio-item">
-     <div class="card h-100">
-       <a href="#"><img class="card-img-top" src="http://placehold.it/700x400?text=Thumbnail" alt=""></a>
-       <div class="card-body">
-         <h4 class="card-title">
-           <a href="#">Bioscoop Three</a>
-         </h4>
-         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
-        <button type="button" class="btn btn-primary">Betalen</button>
-        <button type="button" class="btn btn-secondary">Meer</button>
-        </div>
-     </div>
-   </div>
-   <div class="col-lg-4 col-sm-6 portfolio-item">
-     <div class="card h-100">
-       <a href="#"><img class="card-img-top" src="http://placehold.it/700x400?text=Thumbnail" alt=""></a>
-       <div class="card-body">
-         <h4 class="card-title">
-           <a href="#">Bioscoop Four</a>
-         </h4>
-         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-        <button type="button" class="btn btn-primary">Betalen</button>
-        <button type="button" class="btn btn-secondary">Meer</button>
-        </div>
-     </div>
-   </div>
-   <div class="col-lg-4 col-sm-6 portfolio-item">
-     <div class="card h-100">
-       <a href="#"><img class="card-img-top" src="http://placehold.it/700x400?text=Thumbnail" alt=""></a>
-       <div class="card-body">
-         <h4 class="card-title">
-           <a href="#">Bioscoop Five</a>
-         </h4>
-         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-        <button type="button" class="btn btn-primary">Betalen</button>
-        <button type="button" class="btn btn-secondary">Meer</button>
-        </div>
-     </div>
-   </div>
-   <div class="col-lg-4 col-sm-6 portfolio-item">
-     <div class="card h-100">
-       <a href="#"><img class="card-img-top" src="http://placehold.it/700x400?text=Thumbnail" alt=""></a>
-       <div class="card-body">
-         <h4 class="card-title">
-           <a href="#">Bioscoop Six</a>
-         </h4>
-         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
-        <button type="button" class="btn btn-primary">Betalen</button>
-        <button type="button" class="btn btn-secondary">Meer</button>
-        </div>
-     </div>
-   </div>
- </div>
- <!-- /.row -->
-
+            
+ <?php foreach ($bioscopen as $bioscoop): ?>
+     
+     <div class="card col-md-4">
+ 
+             <img class="card-img-top" src=".../100px180/?text=Image cap" alt="Card image cap">
+                 <div class="card-body">
+                     <h5 class="card-title"><li> <?php echo $bioscoop['bios_naam']; ?></li></h5>
+                     <p class="card-text"><li> <?php echo $bioscoop['provincie']; ?></li></p>
+                 </div>
+                 <ul class="list-group list-group-flush">
+                     <li class="list-group-item"><h5> Begintijd: </h5>
+                                 <?php echo $bioscoop['begintijd']; ?></li>
+                     <li class="list-group-item"> <h5> Eindtijd: </h5>
+                                 <?php echo $bioscoop['eindtijd']; ?></li>
+                     <li class="list-group-item"> <h5> Voorwaarden: </h5>
+                                 <?php echo $bioscoop['voorwaarden']; ?></li>
+                 </ul>
+                 <div class="card-body">
+                     <a href="#" class="card-link">Card link</a>
+                     <a href="#" class="card-link">Another link</a>
+                 </div>
+         </div>
+     <!-- </div> -->
+ <?php endforeach; ?>
+</div>
  <!-- Pagination -->
  <ul class="pagination justify-content-center">
    <li class="page-item">

@@ -39,7 +39,8 @@ class loginLogic
                     header("Location: http://localhost/logincontroller/login/invalid");
                     exit();
                 } else {
-                    $sql = "SELECT * from gebruikers WHERE gebruikers_id"
+                    $sql = "SELECT * from gebruikers WHERE gebruikers_naam = '$naam'";
+                    $result = mysqli_qeury($this->DataHandler)
                 }
 
             }
