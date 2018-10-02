@@ -1,8 +1,8 @@
 <?php require_once 'partials/header.php'; ?>
 
-<div class="container">
-    <div class="border w-50 p-3 mt-3 mx-auto">
-        <form action="" method="post">
+<div class="container container1">
+    <div class="border w-50 p-3 mt-3 mx-auto mt-5">
+        <form>
           <div class="form-row justify-content-center">
               <label><h3>Login</h3></label>
           </div>
