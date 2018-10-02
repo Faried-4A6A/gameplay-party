@@ -5,6 +5,10 @@
     background-size: cover;
 }
 
+.container1{
+    min-height: 70vh;
+}
+
 .footer-blok{
     margin-top: 1rem;
     background-color: #34495e;
