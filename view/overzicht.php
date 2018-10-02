@@ -1,4 +1,4 @@
-<?php require_once "view/partials/header.php"; ?>
+<?php require_once "partials/header.php"; ?>
  <!-- Page Content -->
  <div class="container">
 
@@ -116,4 +116,4 @@
 
 </div>
 <!-- /.container -->
-<?php require_once "view/partials/footer.php"; ?>
+<?php require_once "partials/footer.php"; ?>
