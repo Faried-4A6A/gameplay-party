@@ -21,7 +21,7 @@
   <div class="row">
     <div class="col-lg-4 col-sm-6 portfolio-item">
       <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400?text=bioscoop" alt=""></a>
         <div class="card-body">
           <h4 class="card-title">
             <a href="#">Bioscoop</a>
@@ -32,7 +32,7 @@
     </div>
     <div class="col-lg-4 col-sm-6 portfolio-item">
       <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400?text=bioscoop" alt=""></a>
         <div class="card-body">
           <h4 class="card-title">
             <a href="#">Bioscoop</a>
@@ -43,7 +43,7 @@
     </div>
     <div class="col-lg-4 col-sm-6 portfolio-item">
       <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400?text=bioscoop" alt=""></a>
         <div class="card-body">
           <h4 class="card-title">
             <a href="#">Bioscoop</a>

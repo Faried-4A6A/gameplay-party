@@ -15,7 +15,11 @@
           <input type="text" class="form-control">
           <label>Bericht</label>
           <textarea type="text" class="form-control mb-5" rows="8" cols="50"></textarea>
+          <div class="col-12">
+              <button type="submit" class="btn btn-block btn-primary mt-3">Verzenden</button>
+          </div>
       </div>
+
     </form>
 </div>
 

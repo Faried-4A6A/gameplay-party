@@ -16,7 +16,7 @@ $page = $_SERVER['REQUEST_URI'];
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <nav class="navbar p-0 navbar-expand-lg navbar-light backgroundColorAndriodGreen">
     <a class="navbar-brand float-left navlogo" href="#"><img style="height:100px" src="/view/assets/img/gpp.svg" alt=""></a>
-    
+
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -37,7 +37,7 @@ $page = $_SERVER['REQUEST_URI'];
     <li class="nav-item">
       <a class="nav-link <?php if($page == '/contactscontroller/contact'){echo "active";} ?> colorMidnight" href="http://localhost/contactscontroller/contact">Contact</a>
     </li>
-      <input class="form-control mr-sm-2 " type="search" placeholder="Search" disabled aria-label="Search">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" disabled aria-label="Search">
       <button class="btn btn-outline-primary colorMidnight my-2 my-sm-0" type="submit"><span class="fas fa-search"></span></button>
     </form>
   </div>
