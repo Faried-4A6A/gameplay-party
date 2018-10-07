@@ -10,14 +10,14 @@
           <div class="form content-justify-center">
             <div class="col">
                 <label for="validationDefault01">Gebruikersnaam</label>
-                <input name="naam" type="text" class="form-control" required>
+                <input name="username" type="text" class="form-control" required>
             </div>
             <div class="col mt-2">
                 <label for="exampleInputPassword1">Wachtwoord</label>
-                <input name="ww" type="password" class="form-control" required>
+                <input name="password" type="password" class="form-control" required>
             </div>
             <div class="col-12">
-                <button type="submit" class="btn btn-block btn-primary mt-3">Inloggen</button>
+                <button name='submit' type="submit" class="btn btn-block btn-primary mt-3">Inloggen</button>
             </div>
         </form>
         </div>
