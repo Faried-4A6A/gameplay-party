@@ -5,7 +5,7 @@ class overzichtsLogic {
 
     public function __construct()
     {
-        $this->dataHandler = new dataHandler("mysql", "localhost", "gameplayparty", "faried", "wachtwoord");
+        $this->dataHandler = new dataHandler("mysql", "localhost", "gameplayparty", "root", "");
     }
     public function readCatalogus()
     {

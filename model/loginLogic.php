@@ -9,7 +9,7 @@ class loginLogic
 
     public function __construct()
     {
-        $this->DataHandler = new DataHandler("mysql", "localhost", "gameplayparty", "abuzar", "test");
+        $this->dataHandler = new dataHandler("mysql", "localhost", "gameplayparty", "root", "");
     }
 
     public function createProduct($ean, $discount, $name, $details, $price, $brand, $resolution, $platform, $refresh_rate, $color, $functions, $connections, $accessiores)
