@@ -41,7 +41,7 @@ class userModel {
     }
     public function checkUserRole($roles) {
         if(!$this->isLoggedIn || !in_array($this->user["role"], $roles))
-            return header("Location: /loginController/invoke");
+            return header("Location: /loginController/login");
     }
         /**
      * generates a BCRYPT password

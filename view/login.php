@@ -2,7 +2,7 @@
 
 <div class="container container1">
     <div class="border w-50 p-3 mt-3 mx-auto mt-5">
-        <form>
+        <form action='' method='post'>
           <div class="form-row justify-content-center">
               <label><h3>Login</h3></label>
           </div>

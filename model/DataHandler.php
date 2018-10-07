@@ -13,24 +13,24 @@ class dataHandler
             echo "Connection failed: " . $e->getMessage();
         }
     }
-    function CreateData($sql)
+    function createData($sql)
     {
         $data = $this->conn->prepare($sql);
         $data->execute();
         return $this->conn->lastInsertId();
     }
-    function ReadData($sql)
+    function readData($sql)
     {
         $stmt = $this->conn->prepare($sql);
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
-    function UpdateData($sql)
+    function updateData($sql)
     {
         $stmt = $this->conn->prepare($sql);
         $stmt->execute();
     }
-    function DeleteData($sql)
+    function deleteData($sql)
     {
         $stmt = $this->conn->prepare($sql);
         $stmt->execute();

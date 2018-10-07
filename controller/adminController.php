@@ -1,15 +1,16 @@
 <?php
 
-require_once('model/adminModel.php');
 require_once('model/userModel.php');
 
 class adminController
 {    
     function __construct()
     {
-        $this->adminModel = new adminModel;
         $this->userModel = new userModel;
         $this->userModel->checkUserRole(["admin"]);
 
+    }
+    function adminPanel(){
+        require_once('view/adminPanel.php');
     }
 }
