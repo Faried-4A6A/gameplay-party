@@ -8,7 +8,18 @@
   <header class="business-header mb-3">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12">
+          <div class="col-lg-12 text-center">
+              <div class="jumbotron mt-5" style="opacity: 0.69;filter: alpha(opacity=50);">
+                      <label>
+                          <h1 class="display-2 font-weight-bold" style="color: #A3CB38;text-shadow: 4px 4px 4px #009432;">Welkom bij
+                              <img style="height:100px" src="/view/assets/img/logo.png" alt="">
+                          </h1>
+                      </label>
+                      <hr class="my-4">
+                      <p class="lead">
+                        <a class="btn btn-lg" style="background-color:#A3CB38; color:#009432;" href="#" role="button">Voor meer informatie</a>
+                      </p>
+              </div>
             <!-- <h1 class="display-3 text-center text-white mt-4">Gameplay Party</h1> -->
           </div>
         </div>
@@ -21,7 +32,8 @@
   <div class="row">
     <div class="col-lg-4 col-sm-6 portfolio-item">
       <div class="card h-100">
-        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400?text=bioscoop" alt=""></a>
+        <a href="#"><img class="card-img-top" src="http://placehold.it/700x400?text=bioscoop" alt="">
+        </a>
         <div class="card-body">
           <h4 class="card-title">
             <a href="#">Bioscoop</a>

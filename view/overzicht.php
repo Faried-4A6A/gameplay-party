@@ -1,7 +1,11 @@
 <?php require_once "partials/header.php"; ?>
+
  <!-- Page Content -->
  <div class="container mt-5">
-
+     <div class="form-row mt-5 justify-content-center font-italic" style="color: #A3CB38;">
+         <label><h1>Alle bioscopen om feest te vieren!</h1></label>
+     </div>
+     <hr>
  <div class="row">
  <?php foreach ($bioscopen as $bioscoop): echo "<div class='col-md-3'>";?>
 <div class="card mt-3">
