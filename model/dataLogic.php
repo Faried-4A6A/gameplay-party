@@ -16,7 +16,7 @@ class dataLogic {
 
     public function describeForm()
     {
-        return $this->DataHandler->ReadData("DESCRIBE gameplayparty.bioscopen");
+        return $this->dataHandler->ReadData("DESCRIBE gameplayparty.bioscopen");
     }
     
 }
