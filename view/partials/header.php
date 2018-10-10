@@ -18,7 +18,7 @@ $page = $_SERVER['REQUEST_URI'];
     <!-- <a class="navbar-brand float-left navlogo" style= href="/homeController/home"><img style="height:100px" src="/view/assets/img/gpp.svg" alt=""></a> -->
 
     <nav class="navbar p-0 navbar-expand-lg navbar-light backgroundColorAndriodGreen">
-    <a class="navbar-brand float-left navlogo" href="#"><img style="height:100px" src="/view/assets/img/gpp.svg" alt=""></a>
+    <a class="navbar-brand  navlogo" href="#"><img style="height:155px" src="/view/assets/img/gpp.svg" alt=""></a>
 
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
