@@ -7,6 +7,7 @@ $page = $_SERVER['REQUEST_URI'];
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="/view/assets/img/logo.png">
   <link rel="stylesheet" href="/view/assets/style.css">
   <title>Gameplay party</title>
 </head>
@@ -29,9 +30,6 @@ $page = $_SERVER['REQUEST_URI'];
     </li>
     <li class="nav-item">
       <a class="nav-link <?php if($page == '/overzichtController/overzicht'){echo "active";} ?> colorMidnight" href="http://localhost/overzichtController/overzicht">Bioscopen</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link <?php if($page == '/overonsController/overons'){echo "active";} ?> colorMidnight" href="http://localhost/overonsController/overons">Over ons</a>
     </li>
     <li class="nav-item">
       <a class="nav-link <?php if($page == '/contactscontroller/contact'){echo "active";} ?> colorMidnight" href="http://localhost/contactscontroller/contact">Contact</a>
