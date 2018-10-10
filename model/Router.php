@@ -50,7 +50,7 @@
         public function determineDestination($packets='')
         {
             if(!isset($packets[1]) && empty($packets[1])){
-                $class = "biosController";
+                $class = "homecontroller";
             } else {
                 $class = $packets[1];
             }
@@ -67,7 +67,7 @@
 
         public function sendToDestination($classname, $method, $params)
         {
-            $class =  APP_DIR . '/controller/' . $classname . '.php';
+            $class =  APP_DIR . 'controller/' . $classname . '.php';
             require_once($class);
 
             $obj = new $classname;

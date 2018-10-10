@@ -13,4 +13,7 @@ class adminController
     function adminPanel(){
         require_once('view/adminPanel.php');
     }
+    function addBios(){
+        require_once('view/addBios.php');
+    }
 }
