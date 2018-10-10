@@ -46,9 +46,9 @@
           <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
             <h1 class="h2">Dashboard</h1>
           </div>
-            <button type="button" class="btn btn-lg"><a class="nav-link" href="/adminController/addBios">Bioscoop toevoegen</a></button>
-            <button type="button" class="btn btn-lg"><a class="nav-link" href="adminController/showCMS">Aanpassingen</a></button>
-          
+            <button type="button" class="btn btn-lg" style="background-color:#A3CB38;"><a class="nav-link text-white" href="/adminController/addBios">Bioscoop toevoegen</a></button>
+            <button type="button" class="btn btn-lg" style="background-color:#34495e;"><a class="nav-link" style="color:#fff;" href="adminController/showCMS">Aanpassingen</a></button>
+
         </main>
       </div>
     </div>
