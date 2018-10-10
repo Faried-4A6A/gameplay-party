@@ -12,6 +12,10 @@ class contactsController {
         require "view/contact.php";
     }
 
+    public function algemenevoorwaarden() {
+        require "view/algemenevoorwaarden.php";
+    }
+
 
 }
 
