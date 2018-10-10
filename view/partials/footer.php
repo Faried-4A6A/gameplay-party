@@ -5,7 +5,8 @@
             <div class="col-md-4">
             </div>
             <div class="col-md-4">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis enim tempore sapiente nostrum iure commodi cum repellendus doloribus fuga perferendis minus vero voluptate, eaque maxime! Enim consequuntur doloremque quos mollitia!
+                <i class="fab fa-facebook w-25 h-25"></i>
+                <i class="fab fa-instagram"></i>
             </div>
             <div class="col-md-4">
             </div>
