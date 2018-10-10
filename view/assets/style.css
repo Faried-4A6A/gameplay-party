@@ -35,7 +35,7 @@
 }
 
 .backgroundColorAndriodGreen{
-    background: #A3CB38;
+    /* background: #A3CB38; */
 }
 
 .colorMidnight{
@@ -43,6 +43,9 @@
     border-color: #34495e !important;
 }
 
+.active-nav{
+    color: #ffc312 !important;
+}
 .business-header {
     height: 60vh;
     min-height: 300px;

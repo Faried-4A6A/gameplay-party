@@ -11,11 +11,14 @@ $page = $_SERVER['REQUEST_URI'];
   <link rel="stylesheet" href="/view/assets/style.css">
   <title>Gameplay party</title>
 </head>
-<header>
+
+<header class='sticky-top'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- <a class="navbar-brand float-left navlogo" style= href="/homeController/home"><img style="height:100px" src="/view/assets/img/gpp.svg" alt=""></a> -->
+        
     <nav class="navbar p-0 navbar-expand-lg navbar-light backgroundColorAndriodGreen">
-    <a class="navbar-brand float-left navlogo" style= href="/homeController/home"><img style="height:100px" src="/view/assets/img/gpp.svg" alt=""></a>
+    <img class='sticky-top' style="height:100px postion: fixed" src="/view/assets/img/gpp.svg" alt="">
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -26,16 +29,16 @@ $page = $_SERVER['REQUEST_URI'];
     </ul>
     <form class="form-inline my-2 my-lg-0 px-5">
     <li class="nav-item">
-      <a class="nav-link <?php if($page == '/homeController/home'){echo "text-white";} ?> colorMidnight " href="http://localhost/homeController/home">Home</a>
+      <a class="nav-link <?php if($page == '/homeController/home'){echo "active-nav";} ?> colorMidnight " href="http://localhost/homeController/home">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link <?php if($page == '/catalogusController/catalogus'){echo "text-white";} ?> colorMidnight" href="http://localhost/catalogusController/catalogus">Bioscopen</a>
+      <a class="nav-link <?php if($page == '/catalogusController/catalogus'){echo "active-nav";} ?> colorMidnight" href="http://localhost/catalogusController/catalogus">Bioscopen</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link <?php if($page == '/contactscontroller/contact'){echo "text-white";} ?> colorMidnight" href="http://localhost/contactscontroller/contact">Contact</a>
+      <a class="nav-link <?php if($page == '/contactscontroller/contact'){echo "active-nav";} ?> colorMidnight" style='' href="http://localhost/contactscontroller/contact">Contact</a>
     </li>
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" disabled aria-label="Search">
-      <button class="btn btn-outline-primary colorMidnight my-2 my-sm-0" type="submit"><span class="fas fa-search"></span></button>
+      <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" disabled aria-label="Search">
+      <button class="btn btn-outline-primary colorMidnight my-2 my-sm-0" type="submit"><span class="fas fa-search"></span></button> -->
     </form>
   </div>
 </nav>
