@@ -26,13 +26,13 @@ $page = $_SERVER['REQUEST_URI'];
     </ul>
     <form class="form-inline my-2 my-lg-0 px-5">
     <li class="nav-item">
-      <a class="nav-link <?php if($page == '/homeController/home'){echo "active";} ?> colorMidnight " href="http://localhost/homeController/home">Home</a>
+      <a class="nav-link <?php if($page == '/homeController/home'){echo "text-white";} ?> colorMidnight " href="http://localhost/homeController/home">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link <?php if($page == '/overzichtController/overzicht'){echo "active";} ?> colorMidnight" href="http://localhost/overzichtController/overzicht">Bioscopen</a>
+      <a class="nav-link <?php if($page == '/overzichtController/overzicht'){echo "text-white";} ?> colorMidnight" href="http://localhost/overzichtController/overzicht">Bioscopen</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link <?php if($page == '/contactscontroller/contact'){echo "active";} ?> colorMidnight" href="http://localhost/contactscontroller/contact">Contact</a>
+      <a class="nav-link <?php if($page == '/contactscontroller/contact'){echo "text-white";} ?> colorMidnight" href="http://localhost/contactscontroller/contact">Contact</a>
     </li>
       <input class="form-control mr-sm-2" type="search" placeholder="Search" disabled aria-label="Search">
       <button class="btn btn-outline-primary colorMidnight my-2 my-sm-0" type="submit"><span class="fas fa-search"></span></button>
