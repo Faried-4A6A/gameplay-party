@@ -13,7 +13,7 @@
   <div class="card-body">
     <h5 class="card-title"> <?php echo $bioscoop['bios_naam']; ?></h5>
     <p class="card-text"><?php echo $bioscoop['provincie']; ?></p>
-    <button href="#" class="btn btn-primary">Reserveren</button>
+    <a href="/catalogusController/reseveren" class="btn btn-primary">Reserveren</a>
     <a href="https://kinepolis.nl/bioscopen/<?php echo str_replace(' ', '-', $bioscoop['bios_naam']); ?>/info" target="_blank" class="btn btn-success">Details</a>
   </div>
 </div>
