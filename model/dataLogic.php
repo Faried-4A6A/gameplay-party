@@ -1,7 +1,7 @@
 <?php
 require_once('model/dataHandler.php');
 
-class overzichtsLogic {
+class dataLogic {
 
     public function __construct()
     {
@@ -13,4 +13,10 @@ class overzichtsLogic {
        $bioscopen = $this->dataHandler->ReadData($query);
        return $bioscopen;
     }
+
+    public function describeForm()
+    {
+        return $this->DataHandler->ReadData("DESCRIBE gameplayparty.bioscopen");
+    }
+    
 }

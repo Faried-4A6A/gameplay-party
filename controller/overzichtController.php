@@ -1,11 +1,11 @@
 <?php
-require_once('model/overzichtsLogic.php');
+require_once('model/dataLogic.php');
 
 class overzichtController
 {
 	function __construct()
 	{
-		$this->model = new overzichtsLogic;
+		$this->model = new dataLogic;
 	}
 	public function overzicht()
 	{
