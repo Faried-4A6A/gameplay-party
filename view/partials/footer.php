@@ -8,8 +8,8 @@
     </div>
     <blockquote class="blockquote text-center">
       <p class="lead">
-        <a class="btn btn-lg" style="color:#009432;" href="http://localhost/overzichtController/overzicht" role="button">Algemene reserveringsvoorwaarden</a>
-        <a class="btn btn-lg" style="color:#009432;" href="http://localhost/overzichtController/overzicht" role="button">Algemene voorwaarden</a>
+        <a class="btn btn-lg" style="color:#009432;" href="http://localhost/contactsController/contact" role="button">Contact</a>
+        <a class="btn btn-lg" style="color:#009432;" href="http://localhost/catalogusController/catalogus" role="button">Algemene voorwaarden</a>
       </p>
       <footer class="blockquote-footer">Copyright &copy; Gameplayparty <cite title="Source Title"><?php echo date("Y"); ?></cite></footer>
     </blockquote>
