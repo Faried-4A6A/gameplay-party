@@ -29,7 +29,7 @@ $page = $_SERVER['REQUEST_URI'];
       <a class="nav-link <?php if($page == '/homeController/home'){echo "text-white";} ?> colorMidnight " href="http://localhost/homeController/home">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link <?php if($page == '/overzichtController/overzicht'){echo "text-white";} ?> colorMidnight" href="http://localhost/overzichtController/overzicht">Bioscopen</a>
+      <a class="nav-link <?php if($page == '/catalogusController/catalogus'){echo "text-white";} ?> colorMidnight" href="http://localhost/catalogusController/catalogus">Bioscopen</a>
     </li>
     <li class="nav-item">
       <a class="nav-link <?php if($page == '/contactscontroller/contact'){echo "text-white";} ?> colorMidnight" href="http://localhost/contactscontroller/contact">Contact</a>
