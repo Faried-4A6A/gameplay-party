@@ -12,7 +12,7 @@ class catalogusController
 	}
 	public function catalogus()
 	{
-		$bioscopen = $this->model->readCatalogus();
+		$bioscopen = $this->dataLogic->readCatalogus();
 		include('view/catalogus.php');
 	}
 	public function reseveren(){
