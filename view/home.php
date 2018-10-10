@@ -17,7 +17,7 @@
                       </label>
                       <hr class="my-4">
                       <p class="lead">
-                        <a class="btn btn-lg" style="background-color:#A3CB38; color:#009432;" href="/catalogusController/catalogus" role="button">Bekijk de bioscopen</a>
+                        <a class="btn btn-lg" style="background-color:#A3CB38; color:#009432;opacity: 1;" href="/catalogusController/catalogus" role="button">Bekijk de bioscopen om te feesten!</a>
                       </p>
               </div>
             <!-- <h1 class="display-3 text-center text-white mt-4">Gameplay Party</h1> -->
