@@ -19,6 +19,6 @@ class adminController
     }
     function addBios(){
         $form = $this->htmlElements->createForm('', $this->dataLogic->describeForm());
-        include 'view/form.php';
+        include 'view/addBios.php';
     }
 }
