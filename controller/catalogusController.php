@@ -1,21 +1,54 @@
 <?php
-require_once('model/dataLogic.php');
+require_once 'model/dataLogic.php';
+require_once 'model/HtmlElements.php';
+require_once 'model/dataLogic.php';
 
 class catalogusController
 {
 	function __construct()
 	{
-		$this->model = new dataLogic;
+		$this->htmlElements = new HtmlElements();
+        $this->dataLogic = new dataLogic();
 	}
 	public function catalogus()
 	{
 		$bioscopen = $this->model->readCatalogus();
 		include('view/catalogus.php');
 	}
+	public function reseveren(){
+		include('view/reseveren.php');
+		$to = "somebody@example.com, somebodyelse@example.com";
+		$subject = "HTML email";
 
-	// public function addCatalogus()
-	// {
-	// 	// $bioscopen = $this->model->readCatalogus();
-	// 	include('view/addBios.php');
-	// }
+		$message = "
+		<html>
+		<head>
+		<title>HTML email</title>
+		</head>
+		<body>
+		<p>This email contains HTML Tags!</p>
+		<table>
+		<tr>
+		<th>Firstname</th>
+		<th>Lastname</th>
+		</tr>
+		<tr>
+		<td>John</td>
+		<td>Doe</td>
+		</tr>
+		</table>
+		</body>
+		</html>
+		";
+
+		// Always set content-type when sending HTML email
+		$headers = "MIME-Version: 1.0" . "\r\n";
+		$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+		// More headers
+		$headers .= 'From: <webmaster@example.com>' . "\r\n";
+		$headers .= 'Cc: myboss@example.com' . "\r\n";
+
+		mail($to,$subject,$message,$headers);
+        }
 }
