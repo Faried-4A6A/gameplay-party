@@ -11,8 +11,6 @@
             <button type="button" class="btn btn-lg" style="background-color:#A3CB38;"><a class="nav-link text-white" href="/adminController/biosCMS"><i class="fas fa-film"></i> Bioscoop pagina</a></button>
             <button type="button" class="btn btn-lg" style="background-color:#A3CB38;"><a class="nav-link text-white" href="/adminController/contactCMS"><i class="fas fa-address-book"></i> Contact pagina </a></button>
 
-
-        </div>
         </main>
       </div>
     </div>
