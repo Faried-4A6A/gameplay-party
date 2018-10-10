@@ -27,4 +27,13 @@ class adminController
             include 'view/addBios.php';
         }
     }
+    function biosCMS(){
+        require_once('view/biosCMS.php');
+    }
+    function homeCMS(){
+        require_once('view/homeCMS.php');
+    }
+    function contactCMS(){
+        require_once('view/contactCMS.php');
+    }
 }

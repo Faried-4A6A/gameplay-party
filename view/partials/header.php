@@ -28,7 +28,7 @@ $page = $_SERVER['REQUEST_URI'];
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
     </ul>
-    <form class="form-inline my-2 my-lg-0 px-5">
+    <form class="form-inline my-2 my-lg-0 px-4">
     <li class="nav-item">
       <a class="nav-link <?php if($page == '/homeController/home'){echo "active-nav";} ?> colorMidnight " href="http://localhost/homeController/home">Home</a>
     </li>
