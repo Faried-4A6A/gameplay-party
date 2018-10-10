@@ -7,9 +7,9 @@
                 <label><h1>Dashboard</h1></label>
             </div>
             <hr class="my-4">
-            <button type="button" class="btn btn-lg" style="background-color:#A3CB38;"><a class="nav-link" style="color:#fff;" href="/adminController/homeCMS"><i class="fas fa-home"></i> Home pagina</a></button>
-            <button type="button" class="btn btn-lg" style="background-color:#A3CB38;"><a class="nav-link text-white" href="/adminController/biosCMS"><i class="fas fa-film"></i> Bioscoop pagina</a></button>
-            <button type="button" class="btn btn-lg" style="background-color:#A3CB38;"><a class="nav-link text-white" href="/adminController/contactCMS"><i class="fas fa-address-book"></i> Contact pagina </a></button>
+            <button type="button" class="btn btn-lg" style="background-color:#34495e;"><a class="nav-link text-white" href=""><i class="far fa-edit"></i>Toevoegen</a></button>
+            <button type="button" class="btn btn-lg" style="background-color:#34495e;"><a class="nav-link text-white" href=""><i class="fas fa-trash-alt"></i>Verwijderen</a></button>
+            <button type="button" class="btn btn-lg" style="background-color:#34495e;"><a class="nav-link text-white" href=""><i class="fas fa-pencil-alt"></i>Aanpassen</a></button>
 
         </main>
       </div>
