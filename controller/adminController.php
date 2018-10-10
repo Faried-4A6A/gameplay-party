@@ -20,7 +20,8 @@ class adminController
     function addBios(){
         if (isset($_POST['send'])) {
             $create = $this->dataLogic->createBios($_POST['bios_naam'], $_POST['adres'], $_POST['postcode'], $_POST['stad'], $_POST['provincie'], $_POST['bereikbaar_auto'], $_POST['bereikbaar_ov'], $_POST['bereikbaar_fiets'], $_POST['rolstoeltoegankelijkheid'], $_POST['voorwaarden']);
-            $this->adminPanel();
+            include 'view/addBios.php';
+            echo "<div class='alert alert-success' role='alert'>Bios toegevoegdt </div>";
         } else {
             $form = $this->htmlElements->createForm('', $this->dataLogic->describeForm());
             include 'view/addBios.php';
