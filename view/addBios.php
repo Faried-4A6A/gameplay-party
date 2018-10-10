@@ -1,6 +1,7 @@
 <?php include('partials/header.php'); ?>
 
 <div class="container">
+  <h1>Voeg een bios toe</h1>
   <?php
   echo $form;
   ?>
