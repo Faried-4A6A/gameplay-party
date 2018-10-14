@@ -3,14 +3,14 @@
 require_once('model/userModel.php');
 
 class loginController
-{    
+{
     function __construct()
     {
         $this->userModel = new userModel;
     }
 
 
-     public function login() 
+     public function login()
     {
     if(isset($_REQUEST["submit"])) {
         $this->userModel->login($_REQUEST["username"], $_REQUEST["password"]);
@@ -32,6 +32,6 @@ class loginController
     } else {
         include "view/login.php";
     }
-    
+
     }
 }
