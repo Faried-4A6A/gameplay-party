@@ -40,6 +40,9 @@
     <label for="exampleFormControlTextarea1">Example textarea</label>
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
+    <div class="col">
+        <button type="submit" class="btn btn-block btn-primary mt-3">Reserveer</button>
+    </div>
 </form>
 </div>
 <!-- /.container -->
