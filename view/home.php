@@ -11,7 +11,7 @@
           <div class="col-lg-12 text-center">
               <div class="jumbotron mt-5" style="opacity: 0.69;filter: alpha(opacity=50);">
                       <label>
-                          <h1 class="display-2 font-weight-bold" style="color: #A3CB38;text-shadow: 4px 4px 4px #009432;">Welkom bij <br>Gameplay Party</h1>
+                          <h1 class="display-4 font-weight-bold" style="color: #A3CB38;text-shadow: 4px 4px 4px #009432;">Welkom bij <br>Gameplay Party</h1>
                       </label>
                       <hr class="my-4">
                       <p class="lead">

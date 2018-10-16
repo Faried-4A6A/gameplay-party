@@ -7,9 +7,25 @@
                 <label><h1>Dashboard</h1></label>
             </div>
             <hr class="my-4">
-            <button type="button" class="btn btn-lg" style="background-color:#34495e;"><a class="nav-link text-white" href="/adminController/addBios"><i class="far fa-edit"></i>Toevoegen</a></button>
-            <button type="button" class="btn btn-lg" style="background-color:#34495e;"><a class="nav-link text-white" href=""><i class="fas fa-trash-alt"></i>Verwijderen</a></button>
-            <button type="button" class="btn btn-lg" style="background-color:#34495e;"><a class="nav-link text-white" href=""><i class="fas fa-pencil-alt"></i>Aanpassen</a></button>
+            <div class="card-deck">
+            <div class="card" style="width: 18rem;background-color:#34495e;">
+              <div class="card-body">
+                <button type="button" class="btn btn-lg" style="background-color:#34495e;"><a class="nav-link text-white" href="http://localhost/adminController/addBios"><i class="far fa-edit"></i>Toevoegen</a></button>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;background-color:#34495e;">
+              <div class="card-body">
+                <button type="button" class="btn btn-lg" style="background-color:#34495e;"><a class="nav-link text-white" href=""><i class="fas fa-trash-alt"></i>Verwijderen</a></button>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;background-color:#34495e;">
+              <div class="card-body">
+                <button type="button" class="btn btn-lg" style="background-color:#34495e;"><a class="nav-link text-white" href=""><i class="fas fa-pencil-alt"></i>Aanpassen</a></button>
+              </div>
+            </div>
+        </div>
 
         </main>
       </div>
