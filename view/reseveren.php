@@ -3,11 +3,11 @@
 <h1 class='text-center'>Reserveren</h1>
 
 <div class="container mt-5">
-  <form action="" method='post'>
+  <form action="bedankt" method='post'>
     <div class="form-row">
       <div class="col">
         <label for="exampleFormControlInput1">Voornaam</label>
-        <input type="text" class="form-control" >
+        <input type="text" class="form-control" name="fname">
       </div>
       <div class="col-2">
         <label for="exampleFormControlInput1">Tussenvoegsel</label>
