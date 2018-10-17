@@ -13,6 +13,10 @@
       </p>
       <footer class="blockquote-footer">Copyright &copy; Gameplayparty <cite title="Source Title"><?php echo date("Y"); ?></cite></footer>
     </blockquote>
+    <!-- include summernote css/js -->
+<link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.css" rel="stylesheet">
+<script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.9/summernote.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script> 
 </footer>
 </body>
 </html>
