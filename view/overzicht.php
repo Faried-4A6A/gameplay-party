@@ -9,7 +9,7 @@
  <div class="row">
  <?php foreach ($bioscopen as $bioscoop): echo "<div class='col-md-3'>";?>
 <div class="card mt-3">
-  <img class="card-img-top" src="http://placehold.it/700x400?text=bioscoop" alt="Card image cap">
+  <img class="card-img-top" src="/view/assets/img/<?php echo $bioscoop['image']; ?>" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title"> <?php echo $bioscoop['bios_naam']; ?></h5>
     <p class="card-text"><?php echo $bioscoop['provincie']; ?></p>
