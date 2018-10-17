@@ -18,4 +18,7 @@ class catalogusController
 	public function reseveren(){
 		include('view/reseveren.php');
         }
+	public function bedankt(){
+		include('view/bedankt.php');
+	}
 }

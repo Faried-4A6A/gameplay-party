@@ -3,7 +3,7 @@
 <h1 class='text-center'>Reserveren</h1>
 
 <div class="container mt-5">
-  <form action="" method='post'>
+  <form action="bedankt" method='post'>
     <div class="form-row">
       <div class="col">
         <label for="exampleFormControlInput1">Voornaam</label>
