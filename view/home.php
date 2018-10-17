@@ -28,9 +28,10 @@
   <hr>
 
   <div class="row">
-      <div class="col-sm-5 offset-sm-2 col-md-12 my-3 offset-md-0">
-      <?php echo $homeText; ?>
-      </div>
+      <?php foreach ($homeText as $text): '<div class="col-sm-5 offset-sm-2 col-md-12 my-3 offset-md-0">'?>
+        <?php echo $text['cms_content']; ?>
+      <?php echo"</div>"; endforeach;?>
+
   </div>
   <!-- /.row -->
 
