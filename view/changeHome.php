@@ -8,7 +8,13 @@
 
 <div class="container">
 
-<div id="summernote"></div>
+  
+<?php foreach ($homeText as $text): '<div id="summernote">    '?>
+
+  <?php echo $text['cms_content']; ?>
+
+<?php echo"</div>"; endforeach;?>
+
 <script>
   $('#summernote').summernote({
     tabsize: 2,

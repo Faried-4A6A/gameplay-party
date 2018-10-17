@@ -18,6 +18,11 @@ class dataLogic {
     {
         return $this->dataHandler->ReadData("DESCRIBE gameplayparty.bioscopen");
     }
+
+    public function updateHome()
+    {
+        return $this->dataHandler->ReadData("SELECT `cms_content` FROM `cms` WHERE `cms_id` = 1");
+    }
     
     public function createBios($bios_naam, $adres, $postcode, $stad, $provincie, $bereikbaar_auto, $bereikbaar_ov, $bereikbaar_fiets, $rolstoeltoegankelijkheid, $voorwaarden)
     {

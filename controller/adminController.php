@@ -28,6 +28,10 @@ class adminController
             include 'view/addBios.php';
         }
     }
+
+
+    // $homeText = $this->dataLogic->updateHome();
+
     function biosCMS(){
         require_once('view/biosCMS.php');
     }

@@ -15,7 +15,11 @@ class catalogusController
 		$bioscopen = $this->dataLogic->readCatalogus();
 		include('view/catalogus.php');
 	}
+	
 	public function reseveren(){
 		include('view/reseveren.php');
         }
+	public function bedankt(){
+		include('view/bedankt.php');
+	}
 }
