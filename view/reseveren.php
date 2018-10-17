@@ -7,7 +7,7 @@
     <div class="form-row">
       <div class="col">
         <label for="exampleFormControlInput1">Voornaam</label>
-        <input type="text" class="form-control" >
+        <input type="text" class="form-control" name="fname">
       </div>
       <div class="col-2">
         <label for="exampleFormControlInput1">Tussenvoegsel</label>
