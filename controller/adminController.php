@@ -34,6 +34,9 @@ class adminController
     function homeCMS(){
         require_once('view/homeCMS.php');
     }
+    function changeHome(){
+        require_once('view/changeHome.php');
+    }
     function contactCMS(){
         require_once('view/contactCMS.php');
     }
