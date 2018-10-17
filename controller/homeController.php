@@ -10,7 +10,7 @@ class homeController {
 
 
     public function home() {
-        $homeText = $this->dataLogic->updateHome();
+//        $homeText = $this->dataLogic->updateHome();
         require "view/home.php";
     }
 

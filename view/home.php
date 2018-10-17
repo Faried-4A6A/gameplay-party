@@ -28,9 +28,10 @@
   <hr>
 
   <div class="row">
-      <?php foreach ($homeText as $text): '<div class="col-sm-5 offset-sm-2 col-md-12 my-3 offset-md-0">'?>
-        <?php echo $text['cms_content']; ?>
-      <?php echo"</div>"; endforeach;?>
+<!--      --><?php //foreach ($homeText as $text): '<div class="col-sm-5 offset-sm-2 col-md-12 my-3 offset-md-0">'?>
+<!--        --><?php //echo $text['cms_content']; ?>
+<!--      --><?php //echo"</div>"; endforeach;?>
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, culpa deserunt dolorem excepturi minus mollitia odit rerum tempora? Accusantium aspernatur consectetur culpa dicta dolore ea eius ex in porro similique?
 
   </div>
   <!-- /.row -->
