@@ -8,19 +8,19 @@ SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 
 -- -----------------------------------------------------
--- Schema mydb
+-- Schema gameplayparty
 -- -----------------------------------------------------
 
 -- -----------------------------------------------------
--- Schema mydb
+-- Schema gameplayparty
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `gameplayparties` DEFAULT CHARACTER SET utf8 ;
-USE `mydb` ;
+CREATE SCHEMA IF NOT EXISTS `gameplayparty` DEFAULT CHARACTER SET utf8 ;
+USE `gameplayparty` ;
 
 -- -----------------------------------------------------
--- Table `mydb`.`bioscopen`
+-- Table `gameplayparty`.`bioscopen`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `gameplayparties`.`bioscopen` (
+CREATE TABLE IF NOT EXISTS `gameplayparty`.`bioscopen` (
   `bioscoop_id` INT NOT NULL AUTO_INCREMENT,
   `naam_bios` VARCHAR(45) NOT NULL,
   `straat_bios` VARCHAR(90) NOT NULL,
@@ -37,9 +37,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`biostijden`
+-- Table `gameplayparty`.`biostijden`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `gameplayparties`.`biostijden` (
+CREATE TABLE IF NOT EXISTS `gameplayparty`.`biostijden` (
   `tijd_id` INT NOT NULL AUTO_INCREMENT,
   `begindatum` DATETIME NOT NULL,
   `einddatum` DATETIME NOT NULL,
@@ -56,9 +56,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`zalen`
+-- Table `gameplayparty`.`zalen`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `gameplayparties`.`zalen` (
+CREATE TABLE IF NOT EXISTS `gameplayparty`.`zalen` (
   `zaal_id` INT NOT NULL AUTO_INCREMENT,
   `naam_zaal` VARCHAR(40) NOT NULL,
   `aantal_stoelen` INT NOT NULL,
@@ -79,9 +79,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`klanten`
+-- Table `gameplayparty`.`klanten`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `gameplayparties`.`klanten` (
+CREATE TABLE IF NOT EXISTS `gameplayparty`.`klanten` (
   `klant_id` INT NOT NULL AUTO_INCREMENT,
   `geslacht` TINYINT NOT NULL,
   `voorletter` VARCHAR(10) NOT NULL,
@@ -99,9 +99,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`reserveringen`
+-- Table `gameplayparty`.`reserveringen`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `gameplayparties`.`reserveringen` (
+CREATE TABLE IF NOT EXISTS `gameplayparty`.`reserveringen` (
   `reserveringen_id` INT NOT NULL AUTO_INCREMENT,
   `datum` DATETIME NOT NULL,
   `zaal_id` INT NOT NULL,
@@ -131,9 +131,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`afbeeldingen`
+-- Table `gameplayparty`.`afbeeldingen`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `gameplayparties`.`afbeeldingen` (
+CREATE TABLE IF NOT EXISTS `gameplayparty`.`afbeeldingen` (
   `afbeelding_id` INT NOT NULL AUTO_INCREMENT,
   `path_afbeelding` VARCHAR(100) NOT NULL,
   `bioscoop_id` INT NOT NULL,
@@ -149,9 +149,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`tarieven`
+-- Table `gameplayparty`.`tarieven`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `gameplayparties`.`tarieven` (
+CREATE TABLE IF NOT EXISTS `gameplayparty`.`tarieven` (
   `tarief_id` INT UNSIGNED NOT NULL,
   `prijs` DECIMAL(9,2) NOT NULL,
   `naam` VARCHAR(45) NOT NULL,
@@ -169,9 +169,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`tarieven_has_reserveringen`
+-- Table `gameplayparty`.`tarieven_has_reserveringen`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `gameplayparties`.`tarieven_has_reserveringen` (
+CREATE TABLE IF NOT EXISTS `gameplayparty`.`tarieven_has_reserveringen` (
   `tarief_id` INT UNSIGNED NOT NULL,
   `reserveringen_id` INT NOT NULL,
   `aantal_personen` INT NOT NULL,
@@ -192,9 +192,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`rollen`
+-- Table `gameplayparty`.`rollen`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `gameplayparties`.`rollen` (
+CREATE TABLE IF NOT EXISTS `gameplayparty`.`rollen` (
   `rol_id` INT NOT NULL AUTO_INCREMENT,
   `naam_rol` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`rol_id`),
@@ -203,9 +203,9 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `mydb`.`gebruikers`
+-- Table `gameplayparty`.`gebruikers`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `gameplayparties`.`gebruikers` (
+CREATE TABLE IF NOT EXISTS `gameplayparty`.`gebruikers` (
   `gebruiker_id` INT NOT NULL AUTO_INCREMENT,
   `gebruikersnaam` VARCHAR(50) NOT NULL,
   `wachtwoord` CHAR(50) NOT NULL,
