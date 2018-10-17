@@ -14,7 +14,7 @@ class userModel {
     public function read($username = null) {
         if(!$username) {
             return $this->dataHandler->readData(" SELECT *, `roles`.`name` as `role` FROM `users` INNER JOIN `roles` ON `roles`.`id` = `users`.`role_id`");
-           
+
         } else {
             return $this->dataHandler->readData("SELECT *, `roles`.`name` as `role` FROM `users` INNER JOIN `roles` ON `roles`.`id` = `users`.`role_id` WHERE `username` = `username`")[0];
         }
