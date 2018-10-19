@@ -8,7 +8,7 @@ require_once 'model/dataLogic.php';
 class catalogusController
 {
     /**
-    verwijst de functionaliteiten van de klasse door
+     * verwijst de functionaliteiten van de klasse door
      */
 	function __construct(){
 		$this->htmlElements = new HtmlElements();
@@ -18,6 +18,8 @@ class catalogusController
     /**
      * toont de catalogus pagina
      * $bioscopen array van bioscopen uit de database
+     * 
+     * @return void
      */
 	public function catalogus(){
 		$bioscopen = $this->dataLogic->readCatalogus();

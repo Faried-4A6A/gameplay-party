@@ -51,7 +51,7 @@ class userModel {
      * @param string $password
      * @return bool
      */
-    public function login(string $username, string $password) {
+    public function login($username, $password) {
         if($this->checkPassword($username, $password)) {
             $this->user = $this->read($username);
             $_SESSION["user"] = $this->user;
@@ -75,7 +75,7 @@ class userModel {
      * @param string $password wachtwoord die je wilt encrypten
      * @return string password hash
      */
-    public function generatePassword(string $password) {
+    public function generatePassword($password) {
         return password_hash($password, PASSWORD_BCRYPT);
     }
     /**
@@ -85,7 +85,7 @@ class userModel {
      * @param string $password is het wachtwoord
      * @return bool
      */
-    public function checkPassword(string $username, string $password) {
+    public function checkPassword($username, $password) {
         $user = $this->read($username);
         // var_dump($user);
         if($user)
