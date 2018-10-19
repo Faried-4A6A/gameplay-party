@@ -2,14 +2,20 @@
 
 require_once('model/userModel.php');
 
+// class loginController handelt de login functionaliteiten
 class loginController
 {
-    function __construct()
-    {
+    /**
+     * verwijst naar de functionaleiten in een andere klasse
+     */
+    function __construct(){
         $this->userModel = new userModel;
     }
 
-
+    /**
+     * checkt op de wachtwoord en gebruikersnaam
+     * check rollen
+     */
      public function login()
     {
     if(isset($_REQUEST["submit"])) {

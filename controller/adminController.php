@@ -5,8 +5,12 @@ require_once 'model/HtmlElements.php';
 require_once 'model/adminModel.php';
 require_once 'model/dataLogic.php';
 
+// class admincontroller handelt de admin functionaliteiten
 class adminController
-{    
+{
+    /**
+     verwijst de functionaliteiten van de klasse door
+     */
     function __construct()
     {
         $this->userModel = new userModel;
@@ -16,9 +20,16 @@ class adminController
         $this->adminModel = new adminModel;
 
     }
+
+// toont de admin panel
     function adminPanel(){
         require_once('view/adminPanel.php');
     }
+
+    /**
+     * voegt een bios toe
+     *
+     */
     function addBios(){
         if (isset($_POST['send'])) {
             $create = $this->dataLogic->createBios($_POST['bios_naam'], $_POST['adres'], $_POST['postcode'], $_POST['stad'], $_POST['provincie'], $_POST['bereikbaar_auto'], $_POST['bereikbaar_ov'], $_POST['bereikbaar_fiets'], $_POST['rolstoeltoegankelijkheid'], $_POST['voorwaarden']);
@@ -32,18 +43,31 @@ class adminController
 
     // $homeText = $this->dataLogic->updateHome();
 
+    // toont de bios cms pagina
     function biosCMS(){
         require_once('view/biosCMS.php');
     }
+   
+    // toont de home cms pagina
     function homeCMS(){
         require_once('view/homeCMS.php');
     }
+
+    // toont pagina om de home pagina aan te passen
     function changeHome(){
         require_once('view/changeHome.php');
     }
+
+    // toont de contact cms pagina
     function contactCMS(){
         require_once('view/contactCMS.php');
     }
+
+    /**
+     * verzamelt de waardes van het formulier en zet ze in de createbiosfunctie
+     * zet waardes in de createbios functie
+     * verplaatst geüpload bestand en stuurt je naar de catalogus
+     */
     public function collectBios() {
 		if(isset($_POST["create"])) {
 			$naam = $_POST['bios_naam'];
