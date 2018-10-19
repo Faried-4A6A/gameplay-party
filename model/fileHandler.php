@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Class FileHandler handle the files
+ * Class FileHandler behandeld de bestanden
  */
 class FileHandler
 {

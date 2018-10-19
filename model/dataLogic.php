@@ -25,7 +25,6 @@ class dataLogic {
     }
 
     /**
-     * Dit is een functie om
      * @return array
      */
     public function describeForm()
