@@ -11,17 +11,17 @@
       </div>
       <div class="col-2">
         <label for="exampleFormControlInput1">Tussenvoegsel</label>
-        <input type="text" class="form-control" >
+        <input type="text" class="form-control">
       </div>
       <div class="col">
         <label for="exampleFormControlInput1">Achternaam</label>
-        <input type="text" class="form-control">
+        <input type="text" class="form-control" name="bname">
       </div>
     </div>
     <div class="form-row">
       <div class="col">
         <label for="exampleFormControlInput1">E-mail</label>
-        <input type="email" class="form-control" >
+        <input type="email" class="form-control">
       </div>
       <div class="col">
         <label for="exampleFormControlInput1">Telefoonnummer</label>
@@ -31,7 +31,7 @@
     <div class="form-row">
       <div class="col-6">
         <label for="exampleFormControlInput1">Reserveringsdatum</label>
-        <input type="date" class="form-control" >
+        <input type="date" class="form-control" name="fdatum">
       </div>
       <div class="col">
         <label for="exampleFormControlSelect1">Tijd</label>

@@ -1,12 +1,38 @@
 <?php
 require_once 'model/dataHandler.php';
+
+/**
+ * Dit is een Class model van de admin
+ */
 class adminModel {
+    /**
+     * adminModel constructor.
+     */
 	 public function __construct()
     {
         $this->dataHandler = new dataHandler("mysql", "localhost", "gameplayparty", "root", "");
     }
-    public function createBios($naam, $foto , $adres, $postcode, $stad, $provincie, $begintijd, $eindtijd, $auto, $ov, $fiets, $rolstoel, $voorwaarden) { 
-	
+
+    /**
+     * Hier is een model dat je een bioscoop kan aanmaken
+     * @param $naam
+     * @param $foto
+     * @param $adres
+     * @param $postcode
+     * @param $stad
+     * @param $provincie
+     * @param $begintijd
+     * @param $eindtijd
+     * @param $auto
+     * @param $ov
+     * @param $fiets
+     * @param $rolstoel
+     * @param $voorwaarden
+     * @return string
+     * @throws Exception
+     */
+    public function createBios($naam, $foto , $adres, $postcode, $stad, $provincie, $begintijd, $eindtijd, $auto, $ov, $fiets, $rolstoel, $voorwaarden) {
+
 	try {
 		if ($rolstoel == "ja") {
 			$toegang = 1;
@@ -21,6 +47,11 @@ class adminModel {
 	}
 		return $result;
 	}
+
+    /**
+     * Hier weergeeft het alle waarden van tabel paginas
+     * @return array
+     */
 	public function readCMS()
     {
        $query = 'SELECT * FROM paginas';

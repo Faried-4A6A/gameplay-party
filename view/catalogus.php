@@ -8,13 +8,13 @@
      <hr>
  <div class="row">
  <?php foreach ($bioscopen as $bioscoop): echo "<div class='col-md-3'>";?>
-<div class="card mt-3">
+<div class="card card-bios mt-3">
     <img class="card-img-top" src="/view/assets/img/<?php echo $bioscoop['image']; ?>" alt="Card image cap" style="min-height: 170px;">
     <div class="card-body">
     <h5 class="card-title"> <?php echo $bioscoop['bios_naam']; ?></h5>
     <p class="card-text"><?php echo $bioscoop['provincie']; ?></p>
     <a href="/catalogusController/reseveren" class="btn btn-primary">Reserveren</a>
-    <a href="https://kinepolis.nl/bioscopen/<?php echo str_replace(' ', '-', $bioscoop['bios_naam']); ?>/info" target="_blank" class="btn btn-success">Details</a>
+    <a href="https://kinepolis.nl/bioscopen/<?php echo str_replace(' ', '-', $bioscoop['bios_naam']); ?>/info" target="_blank" class="btn btn-success btn-hover">Details</a>
   </div>
 </div>
 <?php echo"</div>"; endforeach;?>

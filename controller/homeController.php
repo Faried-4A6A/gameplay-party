@@ -18,7 +18,7 @@ class homeController {
      * $homeText content tekst van de home pagina
      */
     public function home() {
-        $homeText = $this->dataLogic->updateHome();
+//        $homeText = $this->dataLogic->updateHome();
         require "view/home.php";
     }
 

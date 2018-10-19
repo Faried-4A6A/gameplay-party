@@ -4,7 +4,7 @@ require_once 'ProductsLogic.php';
 
 /*
  * Created by PhpStorm.
- * User: kaani
+ * User: Faried
  * Date: 10-6-2018
  * Time: 23:10
  */
@@ -14,13 +14,13 @@ class ImageLogic
     public function __construct()
     {
         $this->fileHandler = new FileHandler();
-        $this->DataHandler = new DataHandler("mysql", "localhost", "multiversum", "multiversum", "Wachtwoord1");
+        $this->DataHandler = new DataHandler("mysql", "localhost", "gameplayparty", "gameplayparty", "Wachtwoord1");
     }
 
     /**
-     * @param string $image it gives the value from an image
-     * @param string $directory it gives the location
-     * @return array it returns the path
+     * @param string $image geeft een waarde van een afbeelding
+     * @param string $directory geeft een locatie
+     * @return array weergeeft de path
      */
     public function CreateImage($image, $directory)
     {
@@ -36,9 +36,9 @@ class ImageLogic
     }
 
     /**
-     * @param string $fileName it gives the name of a file
-     * @param string $tmpName it gives a temporary file for upload
-     * @param string $directory it gives a location where the file will be uploaded
+     * @param string $fileName geeft de naam van het bestand
+     * @param string $tmpName geeft een tijdelijke bestand voor upload
+     * @param string $directory geeft een locatie aan waar het bestand wordt geupload
      * @return string it returns the target file
      */
     public function fileUpload($fileName, $tmpName, $directory)
@@ -61,8 +61,8 @@ class ImageLogic
     }
 
     /**
-     * @param string $path it is the path from a file
-     * @param string $ean it is the ean code from a product
+     * @param string $path is het path van een bestand
+     * @param string $ean it is the ean code van een product
      * @throws Exception
      */
     public function createProductImage($path, $ean)
@@ -75,7 +75,7 @@ class ImageLogic
     }
 
     /**
-     * @param string $file it deletes the file
+     * @param string $file verwijderd et bestand
      */
     public function deleteImage($file)
     {

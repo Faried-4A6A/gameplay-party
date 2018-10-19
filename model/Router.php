@@ -33,8 +33,15 @@
 //             die(call_user_func_array(array($obj, $method), $params));
 //         }
 //     }
+
+/**
+ * Class Router
+ */
     class Router
     {
+        /**
+         * Router constructor.
+         */
         public function __construct() 
         {
 
@@ -45,8 +52,12 @@
             $packets = explode('/',$url);
             
             $this->determineDestination($packets);
-        }   
+        }
 
+        /**
+         * Dit is de functie waar de bestemming wordt bepaald
+         * @param string $packets
+         */
         public function determineDestination($packets='')
         {
             if(!isset($packets[1]) && empty($packets[1])){
@@ -64,7 +75,12 @@
                 $this->sendToDestination($class, $method, array_slice($packets, 4));
         }
 
-
+        /**
+         * Dit is een functie waar de class wordt verstuurd
+         * @param $classname
+         * @param $method
+         * @param $params
+         */
         public function sendToDestination($classname, $method, $params)
         {
             $class =  APP_DIR . 'controller/' . $classname . '.php';
