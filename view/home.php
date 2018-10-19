@@ -1,10 +1,5 @@
 <?php require_once "partials/header.php";?>
 
-
-<!-- <div class="slider">
-  <img class="img-fluid" src="/view/assets/img/home.jpg">
-  </div> -->
-
   <header class="business-header mb-3">
       <div class="container">
         <div class="row">

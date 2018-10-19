@@ -6,8 +6,8 @@
 class FileHandler
 {
     /**
-     * @param string $file is just an file for creating
-     * @param string $path is the path from where the file is moving for creating
+     * @param string $file is het creeren van een bestand
+     * @param string $path is de path van waar het bestand wordt gecreeerd
      */
     public function CreateFile($file, $path)
     {
@@ -15,8 +15,8 @@ class FileHandler
     }
 
     /**
-     * @param string $file is an file for checking if it exist
-     * @return bool it returns the file
+     * @param string $file is een bestand om te checken als het bestand
+     * @return bool geeft het bestand terug
      */
     public function CheckFileExistence($file)
     {
@@ -25,8 +25,8 @@ class FileHandler
     }
 
     /**
-     * @param string $file is an file
-     * @return bool it returns the extension from an image
+     * @param string $file is een bestand
+     * @return bool it geeft de extensie van een afbeelding
      */
     public function CheckImageType($file)
     {
@@ -34,9 +34,9 @@ class FileHandler
     }
 
     /**
-     * @param string $file is an file
-     * @param string $size is the size from a file
-     * @return bool returns the file with a required size
+     * @param string $file is een bestand
+     * @param string $size is de grootte van een bestand
+     * @return bool geeft een bestand terug met een vereiste grootte
      */
     public function CheckFileSize($file, $size)
     {
@@ -44,7 +44,7 @@ class FileHandler
     }
 
     /**
-     * @param string $file deletes the file
+     * @param string $file verwijderd het bestand
      */
     public function DeleteFile($file)
     {

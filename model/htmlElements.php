@@ -2,9 +2,9 @@
 class HtmlElements
 {
     /**
-     * @param bool $dataProduct is data from a product
+     * @param bool $dataProduct is data van een product
      * @param string $data is array
-     * @return string it returns a form for creating a product
+     * @return string geeft een formulier voor het creeren van een product
      */
     public function createForm($dataProduct = FALSE, $data)
     {
